@@ -6,11 +6,14 @@ class Navbar extends Component {
     return (
       <nav>
         <a href="#">Code Rebellion</a>
-        <div className="links">
+        <span className="mlinks" align="right">
+          <a href="#"><img src={require("./list.svg")} /></a>
+        </span>
+        <span className="links">
           <a href="#">About</a>
           <a href="#">Projects</a>
           <a href="#">Contact</a>
-        </div>
+        </span>
       </nav>
     );
   }

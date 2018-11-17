@@ -16,3 +16,24 @@ a:hover {
 .links {
   float: right;
 }
+
+.mlinks {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  nav a {
+    text-decoration: none;
+    color: #00ff00;
+    font-family: 'Courier New', Arial, sans-serif;
+  }
+
+  .mlinks {
+    visibility: visible;
+    float: right;
+  }
+
+  .links {
+    display: none;
+  }
+}
